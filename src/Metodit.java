@@ -1,10 +1,13 @@
 
 public class Metodit {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String tervehys = "Moi";
-		System.out.println(tervehys);
-	}
+  public static void tulostaTervehdys() {
+    System.out.println("Moi!");
+  }
+
+  public static void main(String[] args) {
+    // Kutsutaan metodia tulostaTervehdys
+    tulostaTervehdys();
+  }
 
 }
