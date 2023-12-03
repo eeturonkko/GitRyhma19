@@ -18,6 +18,9 @@ public class Metodit {
 	  kilttiVaiTuhma(vastaus);
     // lahjakone arpoo sopivan lahjan
     taydellinenLahja();
+    // ohjelman lopetus
+    tulostaLopetus();
+
   } // main sulku
 
   // Tervehdys
@@ -38,7 +41,7 @@ public class Metodit {
 	}	
 	}
   
-  // Arvotaan lahja
+  // Arvotaan lahja 
   public static void taydellinenLahja() {
 
     Lahjakone lahjakone = new Lahjakone();
@@ -47,6 +50,9 @@ public class Metodit {
     
   }
 
+  public static void tulostaLopetus() {
+    System.out.println("Hyvää Joulua ja uutta vuotta 2024!");
+  }
 
   
 
