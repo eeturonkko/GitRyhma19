@@ -25,7 +25,7 @@ public class Metodit {
 
   // Tervehdys
   public static void tulostaTervehdys() {
-    System.out.println("Hou Hou! Tervetuloa lahjakoneeseen!");
+    System.out.println("Hou Hou Hou! Tervetuloa lahjakoneeseen!");
 
   }
   // Kiltti vai tuhma?
@@ -51,7 +51,7 @@ public class Metodit {
   }
 
   public static void tulostaLopetus() {
-    System.out.println("Hyvää Joulua ja uutta vuotta 2024!");
+    System.out.println("Hyvää joulua ja uutta vuotta 2024!");
   }
 
   
